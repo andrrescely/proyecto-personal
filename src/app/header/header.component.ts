@@ -12,6 +12,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
 
   isLoginPage(): boolean {
-    return this.router.url === '/login';
+    return this.router.url === '/login'; 
   }
 }
