@@ -1,0 +1,29 @@
+.mat-toolbar {
+  background-color: #b6b4b4; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+}
+
+.mat-toolbar button.custom-button {
+  color: #045964; /* Color del texto de los botones */
+  margin-left: 10px; /* Espacio entre los botones, si no queremos usar "justify-content: space-between;"*/
+  border-radius: 20px; /* Bordes redondeados */
+  border: 2px solid #fff; /* Borde sólido blanco */
+}
+
+.mat-toolbar button.custom-button:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.11
+  ); /* Cambio de color al pasar el mouse */
+}
+.logout-button {
+  margin-left: 10px; /* Espacio entre el botón de Cerrar sesión y el anterior */
+  color: #045964; /* Color del texto de los botones */
+  border-radius: 20px; /* Bordes redondeados */
+  border: 2px solid #fff; /* Borde sólido blanco */
+  
+}

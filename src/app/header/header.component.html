@@ -1,0 +1,9 @@
+<mat-toolbar *ngIf="!isLoginPage()">
+  <span>Bienvenido</span>
+  <button mat-button class="custom-button" routerLink="/section1">Mira la Sección 1</button>
+  <button mat-button class="custom-button" routerLink="/section2">Mira la Sección 2</button>
+  <button mat-button class="custom-button" routerLink="/section3">Mira la Sección 3</button>
+  <button mat-button class="custom-button" routerLink="/section4">Mira la Sección 4</button>
+  
+  <button mat-button class="logout-button" routerLink="/login" >Cerrar sesión</button>
+</mat-toolbar>
