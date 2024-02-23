@@ -88,7 +88,7 @@
 }
 
 .button-container button:first-child {
-  background-color: #007bff; /* Azul */
+  background-color: #07bd16; /* Azul */
   color: #fff;
 }
 
@@ -105,3 +105,83 @@
 .card p {
   margin: 10px; /* Margen para el título y el párrafo dentro de las tarjetas */
 }
+/* Estilos para las imágenes pequeñas */
+.small-image {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: auto; /* Autoajuste de la altura */
+  margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para las imágenes pequeñas */
+.small-image {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: auto; /* Autoajuste de la altura */
+  margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+/* Estilos para la sección de imágenes */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  overflow-x: auto; /* Permite hacer scroll horizontal si el contenido se desborda */
+}
+
+.image-container img {
+  width: 100px; /* Tamaño deseado para las imágenes */
+  height: auto; /* Autoajuste de la altura */
+  border-radius: 10px;
+}
+
+.node {
+  padding-bottom: 100px;
+}
+.container {
+  border: 1px solid #ccc; /* Estilo del borde */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 20px; /* Espaciado interno */
+}
+
+.sectionfirst {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.section-button-container {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+}
+
+.custom-button {
+  padding: 10px 20px; /* Espaciado interno */
+  background-color: #ee080875; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.custom-button:hover {
+  background-color: #fa0e0eef; /* Cambia el color de fondo al pasar el mouse */
+}
+
+
+
+
+

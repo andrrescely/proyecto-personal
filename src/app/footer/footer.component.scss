@@ -1,22 +1,12 @@
 .mat-toolbar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 30%;
-  background-color: #b6b4b4;
-  text-align: center;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 40px; /* Establece la altura deseada */
+  padding: 0 10px; /* Ajusta el padding horizontal para reducir el ancho */
 }
 
 .mat-toolbar a {
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
+  margin-right: 10px; /* Reduce el espacio entre los iconos */
 }
 
-.mat-toolbar mat-icon {
-  font-size: 24px; 
+.mat-icon {
+  font-size: 24px; /* Ajusta el tamaño de los iconos */
 }
