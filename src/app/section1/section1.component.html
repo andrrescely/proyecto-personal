@@ -1,1 +1,72 @@
-<p>section1 works!</p>
+<div class="section-container">
+  <div class="section">
+    <h2>Encuentra tu mejor opción</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://noticias.coches.com/wp-content/uploads/2018/09/evento-sixt-alquiler-coches-alta-gama-23.jpg" alt="Card 1">
+        <div class="card-content">
+          BMWi8
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.bcnmola.es/wp-content/uploads/2021/09/Coches-de-lujo-en-Barcelona-3.jpg" alt="Card 2">
+        <div class="card-content">
+          McLaren 570s
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://noticias.coches.com/wp-content/uploads/2018/09/evento-sixt-alquiler-coches-alta-gama-24.jpg" alt="Card 3">
+        <div class="card-content">
+          Porsche 911
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Formulario</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Texto</h3>
+        <p>SOMOS TU MEJOR OPCIÓN</p>
+      </div>
+      <div class="card form-card"> 
+        <h3>Formulario Sencillo</h3>
+        <form>
+          <div class="form-group">
+            <label for="nombreCliente">Nombre del Cliente:</label>
+            <input type="text" id="nombreCliente" formControlName="nombreCliente" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefonoCliente">Teléfono del Cliente:</label>
+            <input type="text" id="telefonoCliente" formControlName="telefonoCliente" required>
+          </div>
+
+          <div class="form-group">
+            <label for="fechaReserva">Fecha de Reserva:</label>
+            <input type="date" id="fechaReserva" formControlName="fechaReserva" required>
+          </div>
+          <div class="form-group">
+            <label for="horaReserva">Hora de tu reserva</label>
+            <input type="time" id="horaReserva" formControlName="horaReserva" required>
+          </div>
+
+          <div class="button-container">
+            <button>Reservar</button>
+            <button mat-button>Cerrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Imágenes</h2>
+    <div class="image-container">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
+  </div>
+</div>

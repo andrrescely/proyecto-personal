@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-header',
@@ -7,11 +8,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  @ViewChild(MatSidenav) sidenav!: MatSidenav; 
+
   constructor(private router: Router) {}
+  
 
   ngOnInit(): void {}
 
   isLoginPage(): boolean {
-    return this.router.url === '/login'; 
+    return this.router.url === '/login';
   }
 }
